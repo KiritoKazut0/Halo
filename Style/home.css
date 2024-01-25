@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+*{
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+}
+header nav a:last-child{
+    padding: 10px 5px;
+    border: 2px solid white;
+}
+header nav a span{
+    transition: .5s ease-out;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.184);
+}
+header nav a span:hover{
+    background-color: rgba(255, 255, 255, 0.277);
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+header img{
+    width: 100px;
+    height: fit-content;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+footer img{
+    width: 100px;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../Assets/halo-infinite.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(56, 56, 56);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contenedor-cards{
+    padding: 25px 25px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.card{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(16, 16, 16);
+}
+.card .parte1{
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+.card .parte2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 55%;
+}
+.card img, span{
+    text-align: justify;
+    width: 100%;
+}
+.nombre{
+    font-size: 29px;
+    margin-bottom: 5px;
+}
+.estado{
+    font-size: 15px;
+}
+.especie{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.vivo{
+    color: greenyellow;
+}
+.muerto{
+    color: rgb(206, 5, 5);
+}
+.sangheili{
+    color: rgb(183, 0, 238);
+}
+.humano{
+    color: rgb(0, 199, 199);
+}
+.descripcion{
+    color: rgb(125, 125, 125);
+    height: 300px;
+    overflow-x: hidden;
+}
+.descripcion::-webkit-scrollbar {
+    width: 0px; /* Ancho del scrollbar */
+  }

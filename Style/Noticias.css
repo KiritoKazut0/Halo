@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.imagenDiv {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-size: cover;
+    cursor: pointer;
+    border: solid black;
+}
+
+#contenedor {
+    text-align: center;
+
+}

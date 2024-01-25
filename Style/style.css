@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+/* dranken */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Kanit', sans-serif;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 100%;
+    width: 145px;
+    object-fit: contain;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/halo-infinite-2020_10240x5760_xtrafondos.com.jpg');
+    background-size: cover;
+
+}
+
+.nav_main {
+    width: 90%;
+    padding: 0 5%;
+    height: 12%;
+    background: linear-gradient(to top, #00000000, #00000084, #000000d2);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.list_main {
+
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+
+}
+
+.items_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+.items_:hover {
+    background-color: rgba(0, 0, 0, 0.512);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.512);
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    margin: 0 5px;
+
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.512);
+}
+
+.items span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.512);
+    width: 120px;
+    height: 35px;
+    margin: 2px;
+}
+
+.information {
+    position: absolute;
+    margin-top: 125px;
+    width: 37%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.title_main {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.paragraph_main {
+    color: white;
+    font-size: 16px;
+    margin-top: 14px;
+    text-align: justify;
+}
+
+.type_games {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.container-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.name {
+    margin: 20px 0;
+    color: white;
+
+}
+
+.size-icon {
+    font-size: 35px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.font-main{
+    background: linear-gradient(90deg, #000000 5%, transparent 100%, #00000033 );
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+
+.section{
+    background-image: url('../Assets/image-p.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: justify;
+}
+
+.font_section{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.type_halos{
+    width: 35%;
+    padding-right: 8%;
+    position: absolute;
+}
+
+.title_section{
+    color: yellow;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 18px;
+}
+
+.subtitle_section{
+    display: block;
+    color: white;
+    margin-bottom: 18px;
+    font-size: 19px;
+
+    
+}
+
+.container-fonts{
+
+    width: 95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+[class^="imagenDiv"] {
+    width: 22%;
+    height: 55%;
+    background-size: cover;
+    border: 1px solid rgb(69, 69, 156);
+}
+
+.image_1{ background-image: url(../Assets/image-p.jpg);}
+.image_2{ background-image: url(../Assets/image1.jpg);}
+.image_3{ background-image: url(../Assets/image2.jpg);}
+.image_4{ background-image: url(../Assets/image3.jpg);}
+
+.paragraph_section{
+    color: white;
+    font-size: 16px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+footer img{
+    width: 100px;
+
+}
